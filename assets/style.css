@@ -49,44 +49,103 @@ table {
 /* START Generic elements */
 body {
   font-family: proxima-nova, sans-serif;
+
+  text-align: center;
+  color: #eee;
 }
 
 h1 {
   font-style: bold;
   font-weight: 900;
 
-  font-size: 5.1em;
+  font-size: 5.1rem;
 }
 
 h2 {
   font-style: normal;
   font-weight: 600;
 
-  font-size: 4em;
+  font-size: 4rem;
 }
 
 h3 {
   font-style: normal;
   font-weight: 400;
-  font-size: 3em;
+  font-size: 3rem;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 /* END Generic elements */
 
 
 /* START Classes */
-.content {
-  text-align: center;
+.background {
+  content: "";
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+
+  z-index: -1;
+
+  background-color: #131313;
+
+  /*opacity: 1;
+  background: url("images/subtle_white_feathers.png"); */
 }
 
-.title {
-  position: absolute;
-  width: 100%;
-  height: 20em;
-
+.header {
+  position: fixed;
   top: 0;
   left: 0;
 
-  background-color: #435d70;
+  background-color: #131313;
+
+  width: 100%;
+  height: 3rem;
+
+  border-bottom: 1px solid #e8e8e8;
+}
+.header .title {
+  margin-right: 60%;
+  margin-top: 0.5rem;
+
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: 2rem;
+}
+.header .links {
+  position: absolute;
+  left: 50%;
+  margin-left: 10%;
+
+  top: 1rem;
+}
+.header .links .link {
+  display: inline-block;
+  color: #FEFEFE;
+  text-decoration: none;
+  outline: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.divider {
+  margin-top: 3rem;
+
+  height: 1px;
+
+  border-radius: 1px;
 }
 
 .mars {
@@ -141,36 +200,19 @@ h3 {
   box-shadow: inset 2px 2px 0 rgba(0,0,0,.2);
 }
 
-.title .text {
-  text-align: left;
+.section {
+  margin-top: 4rem;
 
-  margin-top: 3em;
+  padding: 5rem;
 
-  color: #eee;
+  font-size
 }
 
-.title .left {
-  position: absolute;
-  right: 50%;
-  margin-right: 0.2em;
+.footer {
+  margin-top: 1rem;
 }
-
-.title .right {
-  position: absolute;
-  left: 50%;
-  margin-left: 0.2em;
-}
-
-.title .seds {
-
-}
-
-.title .purdue {
-
-  color: gold;
-}
-
-.title .students {
-  padding-top: 0.5em;
+.footer a {
+  text-decoration: underline;
+  color: #DEDEFE;
 }
 /* END Classes */
