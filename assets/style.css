@@ -50,7 +50,6 @@ table {
 body {
   font-family: proxima-nova, sans-serif;
 
-  text-align: center;
   color: #eee;
 }
 
@@ -80,6 +79,9 @@ h3 {
 .right {
   float: right;
 }
+.footer {
+  text-align: center;
+}
 /* END Generic elements */
 
 
@@ -100,53 +102,6 @@ h3 {
   background: url("images/subtle_white_feathers.png"); */
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-
-  background-color: #131313;
-
-  width: 100%;
-  height: 3rem;
-
-  border-bottom: 1px solid #e8e8e8;
-}
-.header .title {
-  margin-right: 60%;
-  margin-top: 0.5rem;
-
-  font-style: normal;
-  font-weight: 600;
-
-  font-size: 2rem;
-}
-.header .links {
-  position: absolute;
-  left: 50%;
-  margin-left: 10%;
-
-  top: 1rem;
-}
-.header .links .link {
-  display: inline-block;
-  color: #FEFEFE;
-  text-decoration: none;
-  outline: none;
-  margin-left: 1rem;
-  margin-right: 1rem;
-
-  font-weight: 400;
-  font-size: 1rem;
-}
-
-.divider {
-  margin-top: 3rem;
-
-  height: 1px;
-
-  border-radius: 1px;
-}
 
 .mars {
   box-sizing: border-box;
