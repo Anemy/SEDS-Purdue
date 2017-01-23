@@ -4,12 +4,12 @@
     <title>SEDS Purdue</title>
     <link rel="icon" type="image/png" href="assets/images/favicon.png"/>
 
-    <link href="assets/style.css" rel="stylesheet"></link>
-    <link href="assets/bootstrap.min.css" rel="stylesheet"></link>
-    <script src="assets/js/index.js"></script>
-
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <link href="assets/style.css" rel="stylesheet"></link>
+    <link href="assets/custom-bootstrap.min.css" rel="stylesheet"></link>
+    <script src="assets/js/index.js"></script>
 
     <!-- Metadata -->
     <meta property="og:type" content="website"/>
@@ -24,62 +24,65 @@
     <meta name="keywords" content="Purdue, SEDS, PurdueSEDS, students, space, club, organization, group, seds, exploration, development, space, rockets, armstrong, aae, cs, astronautics, astronauts, Aeronautics"/>
   </head>
   <body>
+    <div class="background"></div>
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
-          <a href="../" class="navbar-brand">Purdue SEDS</a>
-        </div>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="" class="navbar-brand">
+              <img class="logo" src="assets/images/logo.png" alt="Purdue SEDS"/>
+            </a>
+          </div>
 
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a class="link" href="#mission">Mission</a>
-          </li>
-          <li>
-            <a class="link" href="#projects">Projects</a>
-          </li>
-          <li>
-            <a class="link" href="#gallery">Gallery</a>
-          </li>
-          <li>
-            <a class="link" href="#team">Team</a>
-          </li>
-          <li>
-            <a class="link" href="#contact">Contact</a>
-          </li>
-        </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a class="link" href="#mission">Mission</a>
+            </li>
+            <li>
+              <a class="link" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="link" href="#gallery">Gallery</a>
+            </li>
+            <li>
+              <a class="link" href="#team">Team</a>
+            </li>
+            <li>
+              <a class="link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <img class="bgImage" src="local/earth-space.jpg"/>
+    <div class="solar-syst">
+      <div class="sun"></div>
+      <div class="mercury"></div>
+      <div class="venus"></div>
+      <div class="earth"></div>
+      <div class="mars"></div>
+      <div class="jupiter"></div>
+      <div class="saturn"></div>
+      <div class="uranus"></div>
+      <div class="neptune"></div>
+      <div class="pluto"></div>
+      <div class="asteroids-belt"></div>
+    </div>
 
-    <!-- <div class="splash">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h1>Purdue Students for the Exploration and Development of Space</h1>
-          </div>
-        </div>
-      </div>
-    </div>  -->
+    <div class="content-buffer"></div>
 
     <div class="container  page-header">
       <div class="page-header">
-        <h1>Purdue SEDS</h1>
+        <h1 class="title">Purdue SEDS</h1>
         <p class="lead">Students for the Exploration and Development of Space</p>
       </div>
 
       <p>Purdue's campus chapter of Students For the Exploration and Development of Space joins the Purdue community in mourning the loss of Gene Cernan. To many of us, he was one of our greatest heros. Gene was known for hating the fact that he was the 'last' man to walk on the moon. It was his greatest wish that we would return before he died, and he often shared this when testifying to Congress on behalf of growing America's space program. While it was our goal to get humans back to the moon before Gene departed from this Earth, we are more determined than ever to ensure that his legacy lives on through us and our careers. And in doing so, we must seek to emulate all that Gene was to the nation at-large and the Boilermaker community, exhibiting the courage, determination, humility, and passion needed for pursuing a fulfilling future in space exploration.</p>
 
-      <!-- <div class="mars">
-        <div class="surface"></div>
-        <div class="crater  crater1"></div>
-        <div class="crater  crater2"></div>
-        <div class="crater  crater3"></div>
-      </div> -->
     </div>
 
     <div class="footer">
-      Copyright &copy; Purdue SEDS <script>document.write(new Date().getFullYear());</script> | <a href="https://www.facebook.com/PurdueSEDS">Join us on Facebook</a>
+      &copy; Purdue SEDS <script>document.write(new Date().getFullYear());</script> | <a href="https://www.facebook.com/PurdueSEDS">Join us on Facebook</a>
     </div>
   </body>
 </html>
