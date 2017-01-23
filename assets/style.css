@@ -54,13 +54,6 @@ body {
   color: #eee;
 }
 
-.title {
-  font-style: bold;
-  font-weight: 900;
-
-  font-size: 5.1rem;
-}
-
 h2 {
   font-style: normal;
   font-weight: 600;
@@ -73,6 +66,10 @@ h3 {
   font-weight: 400;
   font-size: 3rem;
 }
+section {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
 
 .left {
   float: left;
@@ -83,6 +80,7 @@ h3 {
 .footer {
   text-align: center;
 }
+
 /* END Generic elements */
 
 
@@ -125,20 +123,44 @@ h3 {
   overflow: hidden;
 }
 
+.section-blue {
+  background: radial-gradient(6em circle at 0% 50%, #c0d0ff, #fff);
+}
+
 .content-buffer {
   width: 100%;
   height: 40%;
   max-height: 600px;
 }
 
-.section {
-  margin-top: 4rem;
+.gene-img {
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-left: 10%;
 
-  padding: 5rem;
+  border: 7px solid #f1f1f1;
+}
 
-  background: -webkit-radial-gradient(bottom ellipse, #e0e0ff 0%, #fff 100%);
-  background: radial-gradient(ellipse at bottom, #e0e0ff 0%, #fff 100%);
-  background-attachment: fixed;
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  height: auto;
+  margin: 0 auto;
+  border: 7px solid #f1f1f1;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  font-size: 14px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
 }
 
 .footer {
