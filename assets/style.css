@@ -124,7 +124,7 @@ section {
 }
 
 .section-blue {
-  background: radial-gradient(6em circle at 0% 50%, #c0d0ff, #fff);
+  background: radial-gradient(7em circle at 0% 50%, rgba(199,215,255, 0.5), rgba(255,255,255,0));
 }
 
 .content-buffer {
@@ -135,7 +135,6 @@ section {
 
 .gene-img {
   border-radius: 50%;
-  margin-top: -20px;
   margin-left: 10%;
 
   border: 7px solid #f1f1f1;
