@@ -70,6 +70,9 @@ section {
   padding-top: 3em;
   padding-bottom: 4em;
 }
+section h1 {
+  padding-bottom: 0.2em;
+}
 
 p a {
   color: #e6b356;
@@ -106,6 +109,10 @@ p a:hover {
   background: url("images/subtle_white_feathers.png"); 
 
   z-index: -1;
+}
+
+.rocket-image {
+  /*border-radius: 50%;*/
 }
 
 .title {
