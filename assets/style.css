@@ -113,6 +113,10 @@ p a:hover {
 
 .rocket-image {
   /*border-radius: 50%;*/
+  border: 5px solid #f1f1f1;
+  border-radius: 2px;
+
+  width:100%;
 }
 
 .title {
