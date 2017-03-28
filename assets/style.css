@@ -165,11 +165,23 @@ p a:hover {
   max-height: 600px;
 }
 
+.news-row {
+  margin-bottom: 3em;
+}
+
 .gene-img {
   border-radius: 50%;
   margin-left: 10%;
 
   border: 7px solid #f1f1f1;
+}
+
+.news-video {
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+
+  border: 6px solid #f1f1f1;
 }
 
 .team-member {
